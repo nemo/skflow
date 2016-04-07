@@ -169,7 +169,7 @@ Some example code:
     classifier.fit(...)
     classifier.save('/tmp/tf_examples/my_model_1/')
 
-    new_classifier = TensorFlowEstimator.restore('/tmp/tf_examples/my_model_2')
+    new_classifier = skflow.TensorFlowEstimator.restore('/tmp/tf_examples/my_model_2')
     new_classifier.predict(...)
 
 Summaries
